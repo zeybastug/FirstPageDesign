@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Free shipping on your orders over 90$!"; ObjectID = "0Dw-Dy-le6"; */
+"0Dw-Dy-le6.text" = "1000₺ üzeri alışverişlerinizde kargo bedava!";
+
+/* Class = "UIButton"; configuration.title = "View All"; ObjectID = "1ND-G2-9qY"; */
+"1ND-G2-9qY.configuration.title" = "Tümünü Görüntüle";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1ND-G2-9qY"; */
+//"1ND-G2-9qY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Vintage Jackets"; ObjectID = "4dB-oG-Tgn"; */
+"4dB-oG-Tgn.configuration.title" = "Vintage Ceketler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4dB-oG-Tgn"; */
+//"4dB-oG-Tgn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Vintage Boots"; ObjectID = "X0v-kA-NLt"; */
+"X0v-kA-NLt.configuration.title" = "Vintage Botlar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "X0v-kA-NLt"; */
+//"X0v-kA-NLt.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Vintage Sweatshirts"; ObjectID = "b1z-CJ-G9n"; */
+"b1z-CJ-G9n.configuration.title" = "Vintage Sweatshirtler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "b1z-CJ-G9n"; */
+//"b1z-CJ-G9n.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Vintage Tshirts"; ObjectID = "r29-5i-4gV"; */
+"r29-5i-4gV.configuration.title" = "Vintage Tişörtler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "r29-5i-4gV"; */
+//"r29-5i-4gV.normalTitle" = "Button";

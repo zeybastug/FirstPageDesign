@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RyI-Dy-jao">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Your_Vintage_Shop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EPu-Ye-hpM">
+                                <rect key="frame" x="44.5" y="288" width="325" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dB-oG-Tgn">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="31"/>
+                                        <color key="backgroundColor" name="MainColor"/>
+                                        <color key="tintColor" name="WritingColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Vintage Jackets"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0v-kA-NLt">
+                                        <rect key="frame" x="170" y="0.0" width="155" height="31"/>
+                                        <color key="backgroundColor" name="MainColor"/>
+                                        <color key="tintColor" name="WritingColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Vintage Boots"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ddx-v5-siL">
+                                <rect key="frame" x="44.5" y="569" width="325" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r29-5i-4gV">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="31"/>
+                                        <color key="backgroundColor" name="MainColor"/>
+                                        <color key="tintColor" name="WritingColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Vintage Tshirts"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1z-CJ-G9n">
+                                        <rect key="frame" x="170" y="0.0" width="155" height="31"/>
+                                        <color key="backgroundColor" name="MainColor"/>
+                                        <color key="tintColor" name="WritingColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Vintage Sweatshirts"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_tshirt" translatesAutoresizingMaskIntoConstraints="NO" id="BEh-8C-9X0">
+                                <rect key="frame" x="45" y="420" width="149" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_boot" translatesAutoresizingMaskIntoConstraints="NO" id="785-vA-LwG">
+                                <rect key="frame" x="224" y="135" width="122" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_jacket" translatesAutoresizingMaskIntoConstraints="NO" id="VPH-MC-KSL">
+                                <rect key="frame" x="49" y="135" width="145" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free shipping on your orders over 90$!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Dw-Dy-le6">
+                                <rect key="frame" x="58.5" y="761" width="253" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <color key="textColor" name="MainColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_sweatshirt" translatesAutoresizingMaskIntoConstraints="NO" id="yzy-GQ-Lxc">
+                                <rect key="frame" x="216" y="420" width="138" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ND-G2-9qY">
+                                <rect key="frame" x="169.5" y="655" width="75" height="31"/>
+                                <color key="backgroundColor" name="MainColor"/>
+                                <color key="tintColor" name="WritingColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="View All"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EPu-Ye-hpM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1DG-pq-ZSu"/>
+                            <constraint firstItem="EPu-Ye-hpM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44.5" id="2Bh-mP-5bf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EPu-Ye-hpM" secondAttribute="trailing" constant="44.5" id="MrB-EV-KdE"/>
+                            <constraint firstItem="1ND-G2-9qY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NrC-MX-vKF"/>
+                            <constraint firstItem="EPu-Ye-hpM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Oqk-fc-Lxp"/>
+                            <constraint firstItem="1ND-G2-9qY" firstAttribute="top" secondItem="ddx-v5-siL" secondAttribute="bottom" constant="55" id="Y1y-Om-ciR"/>
+                            <constraint firstItem="ddx-v5-siL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dcs-lw-wsg"/>
+                            <constraint firstItem="ddx-v5-siL" firstAttribute="top" secondItem="EPu-Ye-hpM" secondAttribute="bottom" constant="250" id="e86-Gd-DEe"/>
+                            <constraint firstItem="ddx-v5-siL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44.5" id="pu7-qW-GTv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ddx-v5-siL" secondAttribute="trailing" constant="44.5" id="r5T-WT-JvX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vTv-mY-GOA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="84.375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vh2-OQ-Lxc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RyI-Dy-jao" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xN8-Vh-9go">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vnm-M0-RpI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dpi-vH-0NB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="84.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image_boot" width="237.5" height="248.5"/>
+        <image name="image_jacket" width="368" height="336.5"/>
+        <image name="image_sweatshirt" width="337.5" height="356.5"/>
+        <image name="image_tshirt" width="179" height="177"/>
+        <namedColor name="MainColor">
+            <color red="0.9179999828338623" green="0.4779999852180481" blue="0.3449999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WritingColor">
+            <color red="0.76700001955032349" green="1" blue="0.83399999141693115" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
